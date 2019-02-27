@@ -27,5 +27,4 @@ class Author
     self.articles.map{|magazine|Magazine.category}
   end
 
-
 end

@@ -20,5 +20,4 @@ class Magazine
     self.articles.map{|article|article.magazine}
   end
 
-
 end
