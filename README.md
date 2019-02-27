@@ -37,7 +37,7 @@ An author is initialized with a name as a string. A name **cannot** be changed a
 
 
 ### Article
-An article is initialized with an author as an Author object and a magazine as a Magazine object. An article **cannot** change its author or magazine after it is has been initialized. 
+An article is initialized with an author as an Author object and a magazine as a Magazine object. An article **cannot** change its author or magazine after it is has been initialized.
 
 + `Article.all`
   + Returns an array of all Article instances
