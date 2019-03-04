@@ -17,7 +17,9 @@ class Magazine
   end
 
   def article_titles
-    self.articles.map{|article|article.magazine}
+    Article.all.select do |article|
+      article.magazine==self
   end
+end
 
 end
